@@ -11,6 +11,7 @@
     height: 65vh;
     width: 100%;
     background-color:  var(--blue);
+    
 }
 #log-register-left{
     display: flex;
@@ -44,17 +45,21 @@ input{
     border-radius: 2px;
     background-color: var(--lightgray);
 }
+input:focus{
+    background-color: var(--darkgray);
+    outline-color: var(--orange);
+}
 .input-box{
     height: 3vh;
     width: 100%;
 }
 .register-input{
     height: 4vh;
-    width: 45%;
+    width: 100%;
     margin-top: 2%;
     margin-bottom: 4%;
 }
-#register-input-holder{
+#register-all-inputs-holder{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -113,21 +118,13 @@ footer{
 #register-form{
     width: 80%;
 }
+.register-input-holder{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
 /*buttons*/
-.btn{
-    background-color: var(--orange);
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: medium;
-}
-.btn:hover{
-    background-color: rgb(223, 137, 45);
-}
-#log-in-btn{
-    height: 4vh;
-    width: 15%;
-}
 #log-in{
     height: 5vh;
     width: 60%;

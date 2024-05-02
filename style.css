@@ -74,6 +74,7 @@ nav{
     width: 70%;
     height: 100%;
     background-color: var(--blue);
+  
 }
 #right-baner{
     height: 100%;
@@ -224,6 +225,7 @@ input{
     border-radius: 2px;
     background-color: var(--lightgray);
 }
+
 /*buttons*/
 .btn{
     background-color: var(--orange);
@@ -240,7 +242,7 @@ input{
     width: 60%;
     margin-top: 10%;
 }
-#log-in-btn{
+#menu-btn{
     height: 4vh;
     width: 15%;
 }

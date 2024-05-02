@@ -1,0 +1,14 @@
+/*client panels*/
+#all-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+}
+#center-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+}
