@@ -1,0 +1,103 @@
+:root {
+    --lightgray: #D9D9D9;
+    --darkgray: #A9A9A9;
+    --blue: #A7DAFF;
+    --orange: #FFA500;
+}
+
+#log-register-holder{
+    display: flex;
+    flex-direction: row;
+    height: 65vh;
+    width: 100%;
+    background-color:  var(--blue);
+}
+#log-register-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    background-color: var(--darkgray);
+}
+#login-holder{
+    height: 100%;
+    width: 74%;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    margin-top: 35%;
+}
+.input-holder{
+    margin-bottom: 5%;
+}
+#log-btn-holder{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+.input-box{
+    border: none;
+    border-radius: 2px;
+    height: 3vh;
+    width: 100%;
+    background-color: var(--lightgray);
+}
+#log-register-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+}
+
+#login-info{
+    margin-left: 10%;
+    margin-top: 6%;
+    height: 80%;
+    width: 90%;
+
+}
+.large-message{
+    font-size: 4vh;
+}
+.medium-message{
+    width: 40%;
+}
+.small-message{
+    margin-top: 4%;
+}
+.small-message a{
+    text-decoration: none;
+    color: var(--orange);
+}
+.small-message a:hover{
+    text-decoration: underline;
+}
+footer{
+    width: 100%;
+    height: 18vh;
+    background-color: var(--lightgray);
+}
+
+/*buttons*/
+.btn{
+    background-color: var(--orange);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+}
+.btn:hover{
+    background-color: rgb(223, 137, 45);
+}
+#log-in-btn{
+    height: 4vh;
+    width: 15%;
+}
+#log-in{
+    height: 5vh;
+    width: 60%;
+}
