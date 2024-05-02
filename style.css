@@ -79,8 +79,16 @@ nav{
     height: 100%;
     width: 26%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+#overlay-text{
+    position: relative;
+    right: 40%;
+    margin-top: 20%;
+    font-size: 2.5rem;
+
 }
 .holder{
     height: 20vh;
@@ -211,7 +219,11 @@ footer{
     width: 100%;
     background-color: var(--darkgray);
 }
-
+input{
+    border: none;
+    border-radius: 2px;
+    background-color: var(--lightgray);
+}
 /*buttons*/
 .btn{
     background-color: var(--orange);
@@ -226,6 +238,7 @@ footer{
 #baner-btn{
     height: 5vh;
     width: 60%;
+    margin-top: 10%;
 }
 #log-in-btn{
     height: 4vh;

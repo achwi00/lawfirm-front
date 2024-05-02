@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lawfirm-LogIn</title>
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="panel-styles.css">
+    
 </head>
 <body>
+    <nav>
+        <div id="contact-info">
+
+        </div>
+        <div id="menu">
+            <div id="inner-menu">
+                <div id="options">
+                    <button class="btn" id="log-in-btn" value="Zaloguj się">Zarejestruj</button>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Specjalizacje</a></li>
+                    </ul>
+                </div>
+                <div id="logo-holder">LOGO</div>
+            </div>
+        </div>
+        <div id="log-register-holder">
+            <div id="log-register-left">
+                <div class="login-holder">
+                    <div id="register-message">
+
+                    <h1 class="large-message">Zarejestruj się</h1>
+                    <p>Załóż bezpłatne konto w naszej aplikacji i miej kontakt z naszymi specjalistami
+                        kiedy chcesz, gdzie chcesz. Umawiaj wizyty i śledź przebieg interesujących Cię spraw na bieżąco.
+                    </p>
+                    <p class="small-message">Masz już konto? <a href="#">Zaloguj się.</a> </p>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="log-register-right">
+                <div id="register-form-holder">
+                    <form action="post" id="register-form">
+                        <div id="register-input-holder">
+                            <input type="text" class="register-input" id="name" required>
+                            <input type="text" class="register-input" id="surname" required>
+                            <input type="email" class="register-input" id="email" required>
+                            <input type="password" class="register-input" id="password" required>
+                        </div>
+                        <input type="submit" class="btn" id="registration-btn" value="Zarejestruj">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+
+    </nav>
+
     
 </body>
 </html>
