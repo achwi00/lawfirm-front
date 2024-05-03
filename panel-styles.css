@@ -24,7 +24,6 @@
 .login-holder{
     height: 100%;
     width: 74%;
-
 }
 
 #login-form{
@@ -45,18 +44,18 @@
 input{
     border: none;
     border-radius: 2px;
+    margin-top: 1%;
     background-color: var(--lightgray);
 }
 input:focus{
-    
     outline-color: var(--orange);
 }
 .input-box{
-    height: 3vh;
+    height: 3.5vh;
     width: 100%;
 }
 .register-input{
-    height: 4vh;
+    height: 4.3vh;
     width: 100%;
     margin-top: 2%;
     margin-bottom: 4%;
