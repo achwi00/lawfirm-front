@@ -137,3 +137,6 @@ footer{
     height: 4vh;
     width: 25%;
 }
+.footer-column h1, .socials a{
+    color: var(--darkgray);
+}
