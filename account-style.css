@@ -1,16 +1,40 @@
 /*client panels*/
+:root {
+    --lightgray: #e9ebec;
+    --darkgray: #729fcb;
+    --blue: #E9F0F7;
+    --darkblue: #172c40;
+    --orange: #FFA500;
+}
 #all-container{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 60vh;
+    min-height: 69vh;
     background-color: white;
 }
 #center-container{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 90%;
+    width: 92%;
+}
+.stripe-holder{
+    display: flex;
+    justify-content: center;
+    height: 2vh;
+    width: 100%;
+}
+.orange-stripe{
+    height: 100%;
+    width: 92%;
+    background-color: var(--orange);
+
+}
+.example{
+    width: 100%;
+    height: 20vh;
+    background-color: red;
 }
 footer{
     height: 16vh;

@@ -249,9 +249,9 @@ nav{
     font-size: 1.5rem;
 }
 #center-spec-holder hr{
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 0;
-    width: 50%;
+    width: 100%;
 }
 #specialization-wrapper{
     display: flex;
@@ -262,6 +262,8 @@ nav{
     
 }
 .specialization-stripe{
+    opacity: 0;
+    transition: opacity 2s ease-out;
     display: flex;
     flex-direction: row;
     height: 20%;
@@ -271,21 +273,35 @@ nav{
     justify-content: flex-end;
 }
 .specialization{
+    
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     height: 100%;
     width: 60%;
     background-color: var(--blue);
 }
 .specialization h2{
     width: 20%;
-    color: var(--darkblue);
+    color: var(--darkgray);
 }
-#spec-list{
+.spec-list{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     padding: 1.5%;
+    color: var(--darkblue);
+}
+#spec-header{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--darkblue);
+}
+.read-more-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
 }
 footer{
     display: flex;
@@ -354,3 +370,8 @@ input{
     height: 5vh;
     width: 30%;
 }
+.read-more{
+    height: 4vh;
+    width: 50%;
+}
+
