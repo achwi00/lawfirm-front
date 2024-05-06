@@ -132,12 +132,11 @@ nav{
     z-index: 1;
 }
 #center-bottom-holder{
-    width: 80%;
-    height: 100%;
-    /*background-color: red;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
+    height: 100%;
 }
 
 .contact-twins{
@@ -368,7 +367,6 @@ input{
     border-radius: 2px;
     background-color: var(--lightgray);
 }
-
 /*buttons*/
 .btn{
     background-color: var(--orange);

@@ -6,30 +6,30 @@
     --darkblue: #172c40;
     --orange: #FFA500;
 }
-#all-container{
+.centered{
+    display: flex;
+    width: 92%;
+}
+.centring-content{
     display: flex;
     justify-content: center;
     width: 100%;
+}
+#all-container{
     min-height: 69vh;
     background-color: white;
 }
 #center-container{
-    display: flex;
     flex-direction: column;
     height: 100%;
-    width: 92%;
 }
 .stripe-holder{
-    display: flex;
-    justify-content: center;
     height: 2vh;
-    width: 100%;
 }
 .orange-stripe{
     height: 100%;
     width: 92%;
     background-color: var(--orange);
-
 }
 .example{
     width: 100%;
@@ -39,4 +39,3 @@
 footer{
     height: 16vh;
 }
-
