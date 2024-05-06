@@ -39,9 +39,4 @@
 footer{
     height: 16vh;
 }
-#footer-center-info{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 92%;
-}
+

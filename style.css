@@ -227,7 +227,12 @@ nav{
     background-image: url("legal1.jpg");
     background-size: cover;
 }
-
+#triangle{
+    height: 0;
+    width: 0;
+    border-bottom: 50vh solid var(--blue);
+    border-right: 35vh solid transparent;
+}
 #big-holder{
     height: 85vh;
     display: flex;
