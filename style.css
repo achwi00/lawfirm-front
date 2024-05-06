@@ -5,15 +5,12 @@
     --darkblue: #172c40;
     --orange: #FFA500;
 }
-
 body{
     margin: 0;
     padding: 0;
-    background-color: white;
     display: flex;
     flex-direction: column;
     font-family:  Inter, sans-serif;
-   
 }
 h1, h2{
     font-weight: normal;
@@ -45,17 +42,17 @@ nav{
     background-color: var(--orange);
 }
 #menu{
+    display: flex;
+    justify-content: center;
     height: 76%;
     width: 100%;
     background-color: white;
-    display: flex;
-    justify-content: center;
 }
 #inner-menu{
-    height: 100%;
-    width: 92%;
     display: flex;
     flex-direction: row;
+    height: 100%;
+    width: 92%;
 }
 #options{
     display: flex;
@@ -64,15 +61,15 @@ nav{
     height: 100%;
     width: 60%;
 }
-#options ul, #options a{
-    width: 30%;
+#options ul, .nav-element{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 30%;
     list-style-type: none;
     color: black;
 }
-#options a:hover{
+.nav-element:hover{
     transform: scale(1.1);
     color: var(--darkgray);
 }
@@ -93,7 +90,6 @@ nav{
 #left-baner{
     width: 70%;
     height: 100%;
-    /*background-color: var(--blue);*/
     background-image: url("luke-michael-resized-smaller.jpg");
     background-size: cover;
 }
@@ -331,6 +327,7 @@ footer{
     font-size: 1rem;
     color: white;
     margin-bottom: 0;
+    margin-top: 0;
 }
 .footer-column p{
     color: var(--darkblue);
@@ -360,7 +357,6 @@ footer{
 #footer-orange-stripe{
     width: 92%;
     background-color: var(--orange);
-
 }
 input{
     border: none;
@@ -380,22 +376,25 @@ input{
     background-color: rgb(223, 137, 45);
     transform: scale(0.9);
 }
-#baner-btn{
-    height: 5vh;
-    width: 60%;
-    margin-top: 10%;
-}
-#menu-btn{
-    height: 4vh;
-    width: 15%;
-}
-#small-btn{
-    margin-top: 2%;
-    height: 5vh;
-    width: 30%;
+.full-btn{
+    height: 100%;
+    width: 100%;
 }
 .read-more{
     height: 4vh;
     width: 50%;
 }
-
+#log-in-menu-link{
+    height: 4vh;
+    width: 15%;
+}
+#register-link{
+    margin-top: 2%;
+    height: 4vh;
+    width: 40%;
+}
+#baner-link{
+    height: 5vh;
+    width: 60%;
+    margin-top: 10%;
+}
