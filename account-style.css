@@ -26,11 +26,6 @@
 .stripe-holder{
     height: 2vh;
 }
-.orange-stripe{
-    height: 100%;
-    width: 92%;
-    background-color: var(--orange);
-}
 .example{
     width: 100%;
     height: 20vh;

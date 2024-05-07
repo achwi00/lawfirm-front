@@ -29,17 +29,22 @@ nav{
     z-index: 2;
     box-shadow: 0px 1px 2px 0px var(--blue);
 }
+.centring-orange{
+    height: 100%;
+    width: 92%;
+    background-color: var(--orange);
+}
+.long-column{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 #contact-info{
     display: flex;
     justify-content: center;
     height: 24%;
     width: 100%;
     background-color: white;
-}
-#center-info{
-    height: 100%;
-    width: 92%;
-    background-color: var(--orange);
 }
 #menu{
     display: flex;
@@ -94,14 +99,10 @@ nav{
     background-size: cover;
 }
 #right-baner{
-    height: 100%;
-    width: 26%;
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
+    width: 26%;
 }
-
 #overlay-text{
     position: relative;
     right: 40%;
@@ -114,21 +115,16 @@ nav{
     display: flex;
     justify-content: center;
 }
-.orange-decor{
-    height: 100%;
-    width: 92%;
-    background-color: var(--orange);
-}
 #contact-holder{
     height: 85vh;
     background-color: white;
 }
 #bottom-contact-holder{
+    display: flex;
+    justify-content: center;
     position: relative;
     height: 40vh;
     top: -10vh;
-    display: flex;
-    justify-content: center;
     z-index: 1;
 }
 #center-bottom-holder{
@@ -138,18 +134,13 @@ nav{
     width: 80%;
     height: 100%;
 }
-
 .contact-twins{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
     width: 45%;
     background-color: var(--darkgray);
     border-radius: 5px;
 }
-
 .contact-twins h1{
     color: var(--darkblue);
     margin-top: 1%;
@@ -162,7 +153,6 @@ nav{
 .contact-twins h2{
     text-align: center;
 }
-
 .dot{
     display: flex;
     align-items: center;
@@ -174,7 +164,6 @@ nav{
     color: white;
     font-size: 1.5rem;
 }
-
 #contact-content{
     margin-bottom: 3%;
 }
@@ -197,9 +186,6 @@ nav{
     flex-direction: row;
 }
 #help-info{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
     width: 60%;
 }
 #help-info h1, h2{
@@ -218,7 +204,6 @@ nav{
     margin-left: 0;
     width: 60%;
 }
-
 #help-img{
     height: 100%;
     width: 40%;
@@ -238,10 +223,7 @@ nav{
     justify-content: center;
 }
 #center-spec-holder{
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
-    height: 100%;
     align-items: center;
     width: 92%;
 }
@@ -259,7 +241,6 @@ nav{
     justify-content: space-evenly;
     height: 90%;
     width: 100%;
-    
 }
 .specialization-stripe{
     opacity: 0;
@@ -322,10 +303,7 @@ footer{
     width: 92%;
 }
 .footer-column{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    height: 100%;
 }
 .footer-column h1{
     font-size: 1rem;
@@ -357,10 +335,6 @@ footer{
     height: 20%;
     width: 100%;
     background-color: white;
-}
-#footer-orange-stripe{
-    width: 92%;
-    background-color: var(--orange);
 }
 input{
     border: none;
