@@ -10,11 +10,6 @@
     display: flex;
     width: 92%;
 }
-.centring-content{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 #all-container{
     min-height: 69vh;
     background-color: white;

@@ -34,36 +34,34 @@ nav{
     width: 92%;
     background-color: var(--orange);
 }
+.centring-content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 .long-column{
     display: flex;
     flex-direction: column;
     height: 100%;
 }
-#contact-info{
+.long-row{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+}
+#contact-info{
     height: 24%;
-    width: 100%;
     background-color: white;
 }
 #menu{
-    display: flex;
-    justify-content: center;
     height: 76%;
-    width: 100%;
     background-color: white;
 }
 #inner-menu{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
     width: 92%;
 }
 #options{
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    height: 100%;
     width: 60%;
 }
 #options ul, .nav-element{
@@ -128,11 +126,8 @@ nav{
     z-index: 1;
 }
 #center-bottom-holder{
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     width: 80%;
-    height: 100%;
 }
 .contact-twins{
     justify-content: center;
@@ -291,15 +286,9 @@ footer{
     background-color: var(--darkgray);
 }
 #footer-info{
-    display: flex;
-    justify-content: center;
-    width: 100%;
     height: 80%;
 }
 #footer-center-info{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
     width: 92%;
 }
 .footer-column{
@@ -330,10 +319,7 @@ footer{
     color: var(--orange);
 }
 #footer-bottom{
-    display: flex;
-    justify-content: center;
     height: 20%;
-    width: 100%;
     background-color: white;
 }
 input{
