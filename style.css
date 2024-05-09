@@ -3,6 +3,7 @@
     --darkgray: #729fcb;
     --blue: #E9F0F7;
     --darkblue: #172c40;
+    --midblue: #c4d7e9;
     --orange: #FFA500;
 }
 body{
@@ -112,6 +113,9 @@ nav{
     height: 20vh;
     display: flex;
     justify-content: center;
+}
+.small-holder{
+    height: 6vh;
 }
 #contact-holder{
     height: 85vh;
@@ -278,12 +282,26 @@ nav{
     align-items: center;
     width: 30%;
 }
+#carousel-stripe{
+    background-color: var(--darkgray);
+}
+#carousel-holder{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#carousel-holder iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 footer{
     display: flex;
     flex-direction: column;
     height: 18vh;
     width: 100%;
-    background-color: var(--darkgray);
+    background-color: var(--midblue);
 }
 #footer-info{
     height: 80%;
